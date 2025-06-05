@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjemploRMI.iml" filepath="$PROJECT_DIR$/EjemploRMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculadora/calculator-client/calculator-client.iml" filepath="$PROJECT_DIR$/Calculadora/calculator-client/calculator-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculadora/calculator-interface/calculator-interface.iml" filepath="$PROJECT_DIR$/Calculadora/calculator-interface/calculator-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculadora/calculator-server/calculator-server.iml" filepath="$PROJECT_DIR$/Calculadora/calculator-server/calculator-server.iml" />
+    </modules>
+  </component>
+</project>
