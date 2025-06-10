@@ -31,11 +31,12 @@ public class Client {
                     break;
                 }
 
-                int value1 = scanner.nextInt();
-                System.out.println("Ingresa valor 1: ");
 
-                int value2 = scanner.nextInt();
+                System.out.println("Ingresa valor 1: ");
+                int value1 = scanner.nextInt();
+
                 System.out.println("Ingresa valor 2: ");
+                int value2 = scanner.nextInt();
 
                 int result = 0;
 
@@ -62,6 +63,7 @@ public class Client {
         }catch (Exception e) {
             System.out.println(e.getMessage());
         }
+
 
     }
 }

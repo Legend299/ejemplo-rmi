@@ -9,7 +9,8 @@ public class server {
     public static void main(String[] args) throws RemoteException {
 
         Calculator cal = new Calculator();
-        Registry registry = LocateRegistry.getRegistry(PORT);
+        // Registry registry = LocateRegistry.getRegistry(PORT);
+        Registry registry = LocateRegistry.createRegistry(PORT);
         registry.rebind("Calculator", cal);
 
         System.out.println("Servidor Listo, "+PORT);
